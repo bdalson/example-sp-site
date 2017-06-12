@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_ng_template">
+    <sp_ng_template action="INSERT_OR_UPDATE">
+        <id>navMenuTemplate</id>
+        <sp_widget display_value="Header Justifed Nav Menu">4cf58f21375372001308549543990ec1</sp_widget>
+        <sys_class_name>sp_ng_template</sys_class_name>
+        <sys_created_by>brian.alson</sys_created_by>
+        <sys_created_on>2017-06-12 01:44:12</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d24603a1375372001308549543990ed4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>navMenuTemplate</sys_name>
+        <sys_package display_value="Sample SP Site" source="x_snc_sample_sp_si">e7528f2d371372001308549543990e47</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sample SP Site">e7528f2d371372001308549543990e47</sys_scope>
+        <sys_update_name>sp_ng_template_d24603a1375372001308549543990ed4</sys_update_name>
+        <sys_updated_by>brian.alson</sys_updated_by>
+        <sys_updated_on>2017-06-12 01:44:12</sys_updated_on>
+        <template><![CDATA[<a ng-if="item.items.length == 0 && !item.scriptedItems" ng-href="{{item.href}}" target="{{item.url_target}}">{{ item.label }}</a>
+<a ng-if="item.items.length > 0" href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ item.label }} <span class="caret"></span></a>
+<ul ng-if="item.items.length > 0" class="dropdown-menu" role="menu">
+    <li ng-repeat="item in item.items" ng-include="'menuTemplate'" />
+</ul>
+<a ng-if="item.scriptedItems.count > 0" href="javascript:void(0)" data-toggle="dropdown" title="{{item.hint}}">
+    <span ng-bind-html="item.label"></span>
+    <span ng-if="!item.scriptedItems.omitBadge" class="label label-as-badge label-primary sp-navbar-badge-count">{{item.scriptedItems.count}}</span>
+</a>
+<sp-dropdown-tree ng-if="item.scriptedItems.count > 0" items="item.scriptedItems.items" />]]></template>
+    </sp_ng_template>
+</record_update>

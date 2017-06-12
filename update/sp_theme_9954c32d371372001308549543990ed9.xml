@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>$sp-logo-margin-x: 		15px !default;&#13;
+$sp-tagline-color:		$text-color !default;&#13;
+$navbar-inverse-bg: 	#3a3f51 !default;&#13;
+$navbar-inverse-link-color: #bdc0c4 !default;&#13;
+$navbar-inverse-link-hover-color: #ffffff !default;&#13;
+$body-bg: 				#f0f3f4 !default;&#13;
+$dropdown-link-disabled-color: #ccc;</css_variables>
+        <footer/>
+        <footer_fixed>false</footer_fixed>
+        <header display_value="Sample Header">07748f21375372001308549543990ebc</header>
+        <name>Sample SP</name>
+        <navbar_fixed>false</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>brian.alson</sys_created_by>
+        <sys_created_on>2017-06-12 01:35:25</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9954c32d371372001308549543990ed9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Sample SP</sys_name>
+        <sys_package display_value="Sample SP Site" source="x_snc_sample_sp_si">e7528f2d371372001308549543990e47</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sample SP Site">e7528f2d371372001308549543990e47</sys_scope>
+        <sys_update_name>sp_theme_9954c32d371372001308549543990ed9</sys_update_name>
+        <sys_updated_by>brian.alson</sys_updated_by>
+        <sys_updated_on>2017-06-12 02:04:22</sys_updated_on>
+    </sp_theme>
+</record_update>
