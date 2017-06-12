@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
-        <css_variables>$brand-primary: #428bcb;&#13;
-$body-bg: #fff;&#13;
-$state-success-text: #5cb85c;&#13;
-$sp-homepage-bg: #fff;&#13;
-$sp-navbar-divider-color: #455464;&#13;
-$text-color: #717171;&#13;
-$sp-logo-margin-y: .5rem;&#13;
-$navbar-inverse-link-hover-color: #ffffff;&#13;
-$panel-bg: #fff;&#13;
-$brand-success: #5cb85c;&#13;
-$navbar-inverse-bg: #000000;&#13;
-$brand-warning: #f0ad4e;&#13;
-$brand-danger: #d9534f;&#13;
-$sp-tagline-color: #717171;&#13;
-$navbar-inverse-link-color: #bdc0c4;&#13;
-$brand-info: #5bc0de;&#13;
-$link-color: #428bca;&#13;
-$sp-logo-margin-x: 15px;&#13;
-$btn-default-bg: #fff;&#13;
-$text-muted: #979797;&#13;
+        <css_variables>$brand-primary: #428bcb;
+$body-bg: #000;
+$state-success-text: #5cb85c;
+$sp-homepage-bg: #fff;
+$sp-navbar-divider-color: #455464;
+$text-color: #717171;
+$sp-logo-margin-y: .5rem;
+$navbar-inverse-link-hover-color: #ffffff;
+$panel-bg: #fff;
+$brand-success: #5cb85c;
+$navbar-inverse-bg: #000000;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+$sp-tagline-color: #717171;
+$navbar-inverse-link-color: #bdc0c4;
+$brand-info: #5bc0de;
+$link-color: #428bca;
+$sp-logo-margin-x: 15px;
+$btn-default-bg: #fff;
+$text-muted: #979797;
 </css_variables>
         <default>false</default>
         <homepage display_value="sample_index">806843a1375372001308549543990e3b</homepage>
@@ -52,7 +52,7 @@ $text-muted: #979797;&#13;
         <sys_created_on>2017-06-12 01:34:16</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>1014cb21375372001308549543990eab</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Example SP</sys_name>
         <sys_package display_value="Sample SP Site" source="x_snc_sample_sp_si">e7528f2d371372001308549543990e47</sys_package>
         <sys_policy/>
@@ -60,7 +60,7 @@ $text-muted: #979797;&#13;
         <sys_scope display_value="Sample SP Site">e7528f2d371372001308549543990e47</sys_scope>
         <sys_update_name>sp_portal_1014cb21375372001308549543990eab</sys_update_name>
         <sys_updated_by>brian.alson</sys_updated_by>
-        <sys_updated_on>2017-06-12 02:01:22</sys_updated_on>
+        <sys_updated_on>2017-06-12 18:38:10</sys_updated_on>
         <theme display_value="Sample SP">9954c32d371372001308549543990ed9</theme>
         <title>Example SP</title>
         <url_suffix>example_sp</url_suffix>
